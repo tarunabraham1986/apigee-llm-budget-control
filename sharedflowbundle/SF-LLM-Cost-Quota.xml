@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle name="SF-LLM-Cost-Quota">
+    <DisplayName>SF-LLM-Cost-Quota</DisplayName>
+    <Description>Shared Flow to calculate LLM token costs and enforce a dollar budget quota</Description>
+    <ReferencedPolicies>
+        <Policy>AM-InitQuotaWeight</Policy>
+        <Policy>AM-PrepareKVMKey</Policy>
+        <Policy>Q-EnforceBudget-Request</Policy>
+        <Policy>Q-EnforceBudget-Response</Policy>
+        <Policy>EV-ExtractTokenCounts</Policy>
+        <Policy>KVM-GetModelCosts</Policy>
+        <Policy>JS-CalculateCost</Policy>
+        <Policy>DC-CollectCostMetrics</Policy>
+        <Policy>AM-SetCostHeaders</Policy>
+    </ReferencedPolicies>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>

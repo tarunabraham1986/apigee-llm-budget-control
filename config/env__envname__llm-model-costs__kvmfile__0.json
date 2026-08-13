@@ -1,0 +1,16 @@
+{
+  "keyValueEntries": [
+    {
+      "name": "google/gemini-2.5-flash",
+      "value": "{\"input_cost_per_million\": 0.30, \"output_cost_per_million\": 2.50}"
+    },
+    {
+      "name": "google/gemini-2.5-pro",
+      "value": "{\"input_cost_per_million\": 1.25, \"output_cost_per_million\": 10.00}"
+    },
+    {
+      "name": "openai/gpt-4o",
+      "value": "{\"input_cost_per_million\": 5.00, \"output_cost_per_million\": 15.00}"
+    }
+  ]
+}

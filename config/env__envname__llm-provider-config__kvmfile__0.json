@@ -1,0 +1,20 @@
+{
+  "keyValueEntries": [
+    {
+      "name": "google__credential",
+      "value": ""
+    },
+    {
+      "name": "google__targetUrl",
+      "value": "https://VERTEXAI_REGION-aiplatform.googleapis.com/v1/projects/VERTEXAI_PROJECT_ID/locations/VERTEXAI_REGION/publishers/google/models/{model}:generateContent"
+    },
+    {
+      "name": "openai__credential",
+      "value": "OPENAI_API_KEY_PLACEHOLDER"
+    },
+    {
+      "name": "openai__targetUrl",
+      "value": "https://api.openai.com/v1/chat/completions"
+    }
+  ]
+}
